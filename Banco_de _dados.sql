@@ -104,6 +104,8 @@ alter table produto modify preco_produto decimal(7,2);
 alter table produto add foreign key (FK_cod_proj) references projetos(cod_proj);*/
 /*projeto será extrangeira de produtos*/
 
+update funcionarios set nome = "Everton Daciolo" where cod_func = 1;
+
 
 select*from funcionarios;
 select*from  projetos;
